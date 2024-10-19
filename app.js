@@ -4,6 +4,7 @@ const card =  document.querySelector(".card");
 import config from './config.js';
 const apiKey = config.API_KEY;
 
+console.log(config.API_KEY);
 
 weatherForm.addEventListener("submit",async event=>{
 
